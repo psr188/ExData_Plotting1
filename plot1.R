@@ -1,7 +1,7 @@
 power <- function() {
         
         ## Please change this to your working directory if you are validating this code
-        setwd("~/Personal/Coursera/Exploratory Data Analysis - Assignments/Assignment1")
+        setwd("~/Personal/Coursera/Exploratory Data Analysis - Assignments/ExData_Plotting1")
         
         ##Read the file.
         pwr <- read.csv("household_power_consumption.txt",sep = ";",na.strings = "?",colClasses = c(rep("character",each = 2),rep("numeric",each = 7)))
